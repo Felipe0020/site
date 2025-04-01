@@ -12,20 +12,18 @@
 </head>
 
 <body>
-    <?php
-    include("menu.php");
-    ?>
+    <?php include("menu.php"); ?>
 
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="art1.jpg" class="d-block w-50   " alt="...">
+                <img src="art1.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="art2.jpg" class="d-block w-100 " alt="...">
+                <img src="art3.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="" class="d-block w-50 " alt="...">
+                <img src="art.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -36,22 +34,20 @@
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Proximo</span>
+            <span class="visually-hidden">Próximo</span>
         </button>
+    </div>
+
+    <div class="container text-center mt-4">
+        <img src="logo_ceep.png" alt="Logo CEEP" class="img-fluid" style="max-width: 300px;">
     </div>
 
     <?php include("footer.php"); ?>
 
-
-
- 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-        </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 </body>
-
-
 
 </html>

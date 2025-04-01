@@ -17,6 +17,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css"
+        integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media (max-width: 767px) {
+            #titulo h1 {
+                font-size: 18px;
+            }
+        }
+    </style>
     </body>
 
 </head>
@@ -29,7 +39,7 @@
                     <img src="ceep2.png" alt="Logo CEEP">
                 </a>
             </div>
-            <div class="col-7 text-center align-items-center d-flex flex-column justify-content-center">
+            <div class="col-7 text-center align-items-center d-flex flex-column justify-content-center" id="titulo">
                 <h1 id="titulo"> Centro Estadual de Educação Profissional</h1>
                 <h1 id="titulosub">Professora Naiana Babaresco de Souza</h1>
             </div>
