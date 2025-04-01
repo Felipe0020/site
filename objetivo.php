@@ -29,19 +29,19 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-12 col-md-10">
-                <!-- Card que ao clicar abre o PDF em uma nova aba, agora no layout flexível -->
+               
                 <div class="card-container">
                     <a href="PROJETOCEEP.pdf" target="_blank">
-                        <div class="card" style="width: 48%; min-width: 300px;">
+                        <div class="card" style=";">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Clique para abrir o Projeto Político</h5>
-                                <iframe src="PROJETOCEEP.pdf" class="MostrarPdf"></iframe>
+                                <iframe src="PROJETOCEEP.pdf" class="MostrarPdf" width="100%"></iframe>
                             </div>
                         </div>
                     </a>
 
                     <a href="pdfregime.php" target="_blank">
-                        <div class="card" style="width: 48%; min-width: 300px;">
+                        <div class="card" style=" ">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Clique para abrir o Regimento Escolar</h5>
                                 <iframe src="pdfregime.php" class="MostrarPdf"></iframe>
