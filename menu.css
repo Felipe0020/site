@@ -45,8 +45,8 @@ body {
 
 .ceep img {
     max-width: 60%;
-    margin: 10px auto 0;
-    display: block;
+    display:inline-flex;
+    align-items: last baseline;
 }
 
 #titulo, #titulosub {
@@ -64,4 +64,3 @@ body {
     font-size: 2.5rem;
     color: #fff;
 }
-

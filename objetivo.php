@@ -20,8 +20,6 @@
     <?php include("menu.php"); ?>
 
     <div class="container mt-5">
-        <h2 class="text-center">OBJETIVO</h2>
-        <hr>
         <div class="row">
             <div class="col-12">
                 <h3 class="text-center">PROJETO POLÍTICO DO CEEP</h3>
@@ -32,19 +30,19 @@
                
                 <div class="card-container">
                     <a href="PROJETOCEEP.pdf" target="_blank">
-                        <div class="card" style=";">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Clique para abrir o Projeto Político</h5>
+                        <div class="card">
+                            <div class="card-body text-center" >
                                 <iframe src="PROJETOCEEP.pdf" class="MostrarPdf" width="100%"></iframe>
+                                <button type="button" style="align-items-center" class="btn btn-success" >Abrir Documento</button>
                             </div>
                         </div>
                     </a>
 
-                    <a href="pdfregime.php" target="_blank">
-                        <div class="card" style=" ">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Clique para abrir o Regimento Escolar</h5>
-                                <iframe src="pdfregime.php" class="MostrarPdf"></iframe>
+                    <a href="REGIMENTOCEEP.pdf" target="_blank">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <iframe src="REGIMENTOCEEP.PDF" class="MostrarPdf"></iframe>
+                                <button type="button" class="btn btn-success" >Abrir Documento</button>
                             </div>
                         </div>
                     </a>

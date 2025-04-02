@@ -30,10 +30,10 @@
 </head>
 
 <body>
-    <div class="banner" style="background-color: rgb(5, 150, 0);">
+    <div class="banner" style="background-color: rgb(5, 150, 0); ">
         <div class="row">
-            <div class="ceep col-2">
-                <a href="index.php">
+            <div class="ceep col-2 ">
+                <a href="index.php ">
                     <img src="ceep2.png" alt="Logo CEEP">
                 </a>
             </div>

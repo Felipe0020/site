@@ -19,10 +19,10 @@
                 <img src="art1.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="art3.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
+                <img src="art2.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
             </div>
             <div class="carousel-item">
-                <img src="art.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
+                <img src="art3.jpg" class="d-block w-100" alt="..." style="object-fit: cover;">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
