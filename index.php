@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CEEP</title>
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 </head>
@@ -37,12 +37,60 @@
         </button>
     </div>
 
-   
+    <!--Notícias -->
+    <div class="container mb-12">
+        <div class="row">
+
+            <div class="container mt-4">
+                <div class="row  mt-5">
+
+
+
+                    <!-- Notícia 1 -->
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card text-center">
+                            <img src="voltaaula.jpeg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Abertura do Ano Letivo</h5>
+                                <a href="noticias2.php" class="btn btn-success">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notícia 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center">
+                            <img src="inscricao.png" class="card-img-top" alt="Imagem notícia 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Inscrições Abertas</h5>
+                                <a href="noticias2.php" class="btn btn-success">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notícia 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card text-center">
+                            <img src="classificados.jpeg" class="card-img-top" alt="Imagem notícia 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Jogos Interescolares 2025</h5>
+                                <a href="#" class="btn btn-success">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
     <?php include("footer.php"); ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 </body>
 

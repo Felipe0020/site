@@ -32,12 +32,12 @@
 <body>
     <div class="banner" style="background-color: rgb(5, 150, 0); ">
         <div class="row">
-            <div class="ceep col-2 ">
+            <div class="ceep col-6 col-md-2 ">
                 <a href="index.php ">
-                    <img src="ceep2.png" alt="Logo CEEP">
+                    <img src="ceep2.png" alt="Logo CEEP" id="logoCeep">
                 </a>
             </div>
-            <div class="col-7 text-center align-items-center d-flex flex-column justify-content-center" id="titulo">
+            <div class="col-5   col-md-7 text-center align-items-center d-flex flex-column justify-content-center" id="titulo">
                 <h1 id="titulo"> Centro Estadual de Educação Profissional</h1>
                 <h1 id="titulosub">Professora Naiana Babaresco de Souza</h1>
             </div>
@@ -78,14 +78,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.php">Contato</a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="noticias.php">Notícias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galeria.php">Galeria</a>
+                        <a class="nav-link" href="galeriainicio.php">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
             </div>

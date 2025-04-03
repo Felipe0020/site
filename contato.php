@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
        
-        <div class="contact-info col-6">
+        <div class="contact-info col-12 col-md-6">
             <p><strong>Endereço:</strong> R. Cel. Guilherme de Paula, 1937-1967 - Centro, Laranjeiras do Sul - PR, 85301-404</p>
             <p><strong>Telefone:</strong> (11) 1234-5678</p>
             <p><strong>E-mail:</strong><a href="mailto:ljsceeplaranjeiras@seed.pr.gov.br"> ljsceeplaranjeiras@seed.pr.gov.br</a></p>
@@ -59,8 +59,8 @@
 
 
 
-        <div class="col-6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.1198739497586!2d-52.4206859!3d-25.400797700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94efcb1205ab6b87%3A0x4c6769f192dbec61!2sCEEP%20Prof%C2%AA.%20Naiana%20Bavaresco%20Souza%20-%20Escola%20T%C3%A9cnica%20de%20Laranjeiras%20do%20Sul%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1743038232948!5m2!1spt-BR!2sbr" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-12 col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3604.1198739497586!2d-52.4206859!3d-25.400797700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94efcb1205ab6b87%3A0x4c6769f192dbec61!2sCEEP%20Prof%C2%AA.%20Naiana%20Bavaresco%20Souza%20-%20Escola%20T%C3%A9cnica%20de%20Laranjeiras%20do%20Sul%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1743038232948!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         
     
