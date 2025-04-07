@@ -14,3 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+ 
+  
+  document.querySelectorAll('.dropdown-toggle').forEach(function(dropdown) {
+    dropdown.removeAttribute('data-bs-toggle');
+  });
+

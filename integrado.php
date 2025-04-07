@@ -24,18 +24,22 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <!-- Card 1 -->
             <div class="col">
-                <div class="card">
-                    <img src="enfermagem.jpg" class="card-img-top" alt="Curso 1">
+                <div class="card h-100">
+                    <a href="enfermagem.php">
+                        <img src="enfermagem.jpg" class="card-img-top" alt="Curso Enfermagem">
+                    </a>
                     <div class="card-body">
-                    Forma profissionais para cuidar da saúde, administrar medicamentos e prevenir doenças.
+                        <p class="card-text">Forma profissionais para cuidar da saúde, administrar medicamentos e prevenir doenças.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Card 2 -->
             <div class="col">
-                <div class="card">
-                    <img src="sistemas.jpg" class="card-img-top" alt="Curso 2">
+            <div class="card h-100">
+            <a href="desenvolvimento.php">
+                    <img src="sistemas.png" class="card-img-top" alt="Curso Desenvolvimento">
+                    </a>
                     <div class="card-body">
                         <p class="card-text">Capacita para criar, programar e gerenciar softwares e sistemas informáticos.</p>
                     </div>
@@ -44,8 +48,10 @@
 
             <!-- Card 3 -->
             <div class="col">
-                <div class="card">
-                    <img src="administracao.jpg" class="card-img-top" alt="Curso 3">
+            <div class="card h-100">
+            <a href="administracao.php">
+                    <img src="administracao.jpg" class="card-img-top" alt="Curso Administracao">
+                    </a>
                     <div class="card-body">
                         <p class="card-text">Forma profissionais para gerenciar recursos, equipes e processos em empresas.</p>
                     </div>
@@ -54,8 +60,10 @@
 
             <!-- Card 4 -->
             <div class="col">
-                <div class="card">
-                    <img src="agricultura.jpg" class="card-img-top" alt="Curso 4">
+            <div class="card h-100">
+            <a href="agricultura.php">
+                    <img src="agricultura.jpg" class="card-img-top" alt="Curso Agricultura">
+                    </a>
                     <div class="card-body">
                         <p class="card-text"> Prepara para planejar, gerenciar e otimizar a produção agrícola, focando em técnicas sustentáveis.</p>
                     </div>
@@ -64,8 +72,10 @@
 
             <!-- Card 5 -->
             <div class="col">
-                <div class="card">
-                    <img src="agronegocio.jpg" class="card-img-top" alt="Curso 5">
+            <div class="card h-100">
+            <a href="agronegocio.php">
+                    <img src="agronegocio.jpg" class="card-img-top" alt="Curso Agronegocio">
+                    </a>
                     <div class="card-body">
                         <p class="card-text"> Forma profissionais para gerenciar e otimizar processos no setor agrícola e suas cadeias produtivas.</p>
                     </div>

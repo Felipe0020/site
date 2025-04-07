@@ -134,7 +134,7 @@
             </p>
             <br>
             <div class="col-md-10 mb-3 text-center ">
-                <div style="text-align: center;">
+                <div style="text-align:center;">
                     <img src="naiana.png">
                     <p><strong>Naiana Babaresco De Souza</strong></p>
                 </div>

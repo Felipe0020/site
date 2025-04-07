@@ -10,32 +10,36 @@
 </head>
 
 <body>
-<?php
+    <?php
     include("menu.php");
     ?>
     <div class="container">
-    <div class="container">
-        <div class="row">
-            <div>
-                <h3 class="text-center" >SUBSEQUENTE</h3>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h3 class="text-center">SUBSEQUENTE</h3>
+                </div>
             </div>
         </div>
-    </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <!-- Card 1 -->
             <div class="col">
-                <div class="card">
-                    <img src="enfermagem.jpg" class="card-img-top" alt="Curso 1">
+                <div class="card h-100">
+                    <a href="enfermagem.php">
+                        <img src="enfermagem.jpg" class="card-img-top" alt="Curso Enfermagem">
+                    </a>
                     <div class="card-body">
-                    Forma profissionais para cuidar da saúde, administrar medicamentos e prevenir doenças.
+                        <p class="card-text">Forma profissionais para cuidar da saúde, administrar medicamentos e prevenir doenças.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Card 2 -->
             <div class="col">
-                <div class="card">
-                    <img src="sistemas.jpg" class="card-img-top" alt="Curso 2">
+            <div class="card h-100">
+            <a href="desenvolvimento.php">
+                    <img src="sistemas.jpg" class="card-img-top" alt="Curso Desenvolvimento">
+                    </a>
                     <div class="card-body">
                         <p class="card-text">Capacita para criar, programar e gerenciar softwares e sistemas informáticos.</p>
                     </div>
@@ -44,8 +48,10 @@
 
             <!-- Card 3 -->
             <div class="col">
-                <div class="card">
-                    <img src="edificacoes.jpg" class="card-img-top" alt="Curso 3">
+            <div class="card h-100">
+                    <a href="edificacoes.php">
+                        <img src="edificacoes.jpg" class="card-img-top" alt="Curso Edificacoes">
+                    </a>
                     <div class="card-body">
                         <p class="card-text">Prepara para o planejamento, execução e fiscalização de obras civis e construção de infraestrutura.</p>
                     </div>
@@ -54,8 +60,10 @@
 
             <!-- Card 4 -->
             <div class="col">
-                <div class="card">
-                    <img src="eletrotecnica.jpg" class="card-img-top" alt="Curso 4">
+            <div class="card h-100">
+                    <a href="eletrotecnica.php">
+                        <img src="eletrotecnica.jpg" class="card-img-top" alt="Curso Eletrotecnica">
+                    </a>
                     <div class="card-body">
                         <p class="card-text">Aprenda as melhores práticas para planejar e gerenciar projetos de sucesso.</p>
                     </div>
@@ -64,8 +72,10 @@
 
             <!-- Card 5 -->
             <div class="col">
-                <div class="card">
-                    <img src="estetica.jpg" class="card-img-top" alt="Curso 5">
+            <div class="card h-100">
+                    <a href="estetica.php">
+                        <img src="estetica.jpg" class="card-img-top" alt="Curso estetica">
+                    </a>
                     <div class="card-body">
                         <p class="card-text"> Ensina técnicas de cuidados de beleza e tratamentos estéticos, promovendo bem-estar e autoestima.</p>
                     </div>
@@ -74,10 +84,12 @@
 
             <!-- Card 6 -->
             <div class="col">
-                <div class="card">
-                    <img src="farmacia.jpg" class="card-img-top" alt="Curso 6">
+            <div class="card h-100">
+                    <a href="farmacia.php">
+                        <img src="farmacia.jpg" class="card-img-top" alt="Curso Farmacia">
+                    </a>
                     <div class="card-body">
-                       
+
                         <p class="card-text">Forma profissionais para o controle, manipulação e aconselhamento sobre medicamentos.</p>
                     </div>
                 </div>
@@ -85,8 +97,8 @@
         </div>
     </div>
 
-    <?php include("footer.php");?>
-    
+    <?php include("footer.php"); ?>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

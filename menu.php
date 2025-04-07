@@ -30,7 +30,7 @@
 </head>
 
 <body>
-    <div class="banner" style="background-color: rgb(5, 150, 0); ">
+    <div class="banner" style="background-color:rgb(41, 170, 2); ">
         <div class="row">
             <div class="ceep col-6 col-md-2 ">
                 <a href="index.php ">
@@ -45,7 +45,7 @@
     </div>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgb(0, 0, 0);">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgb(32, 32, 32);">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
