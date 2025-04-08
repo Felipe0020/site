@@ -38,7 +38,7 @@
             <div class="col">
             <div class="card h-100">
             <a href="desenvolvimento.php">
-                    <img src="sistemas.png" class="card-img-top" alt="Curso Desenvolvimento">
+                    <img src="sistemas.jpg" class="card-img-top" alt="Curso Desenvolvimento">
                     </a>
                     <div class="card-body">
                         <p class="card-text">Capacita para criar, programar e gerenciar softwares e sistemas informáticos.</p>

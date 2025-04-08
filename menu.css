@@ -49,7 +49,9 @@ body {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
 }
-
+ #logoparana{
+    align-items: end;
+ }
 
 .ceep img {
     max-width: 60%;
@@ -59,7 +61,7 @@ body {
 
 #titulo, #titulosub {
     text-align: center;
-    font-family: Gothan bold;
+    font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 

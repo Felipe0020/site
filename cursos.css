@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  padding-top: 50px; /* Para não ficar sobrepondo o banner e menu */
+  padding-top: 50px;
 }
 
 .container {
@@ -37,6 +37,7 @@ body {
 
 .card-img-top {
   height: 250px;
-  object-fit:fill;
+  object-fit:auto;
+
  
 }

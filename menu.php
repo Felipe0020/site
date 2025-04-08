@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
      
     <style>
         @media (max-width: 767px) {
@@ -30,11 +31,12 @@
 </head>
 
 <body>
-    <div class="banner" style="background-color:rgb(41, 170, 2); ">
+    <div class="banner" style="background-color:rgb(0, 147, 17); ">
         <div class="row">
             <div class="ceep col-6 col-md-2 ">
                 <a href="index.php ">
                     <img src="ceep2.png" alt="Logo CEEP" id="logoCeep">
+                    <img src="parana.jpg" alt="Logo Parana" id="logoparana">
                 </a>
             </div>
             <div class="col-5   col-md-7 text-center align-items-center d-flex flex-column justify-content-center" id="titulo">
@@ -45,8 +47,7 @@
     </div>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgb(32, 32, 32);">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgb(0, 87, 162);">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
