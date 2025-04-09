@@ -29,9 +29,26 @@
       </div>
     </div>
 
-    <div class="mt-5">
-      <h2 class="h4">Áreas de Atuação</h2>
-      <ul class="list-group list-group-flush">
+    <div>
+      <nav class="tabs-nav">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+              aria-selected="true"><strong>Áreas de Atuação</strong></a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+              aria-selected="false"><strong>Matriz Curricular</strong></a>
+          </li>
+
+        </ul>
+      </nav>
+
+
+      <div class="tab-content mt-3" id="myTabsContent">
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+          <p>O Técnico em Administração pode atuar em diversas áreas, como:</p>
+          <ul class="list-group list-group-flush">
         <li class="list-group-item">Empresas privadas e públicas</li>
         <li class="list-group-item">Escritórios de contabilidade</li>
         <li class="list-group-item">Setor de recursos humanos</li>
@@ -39,6 +56,21 @@
         <li class="list-group-item">Comércio e varejo</li>
         <li class="list-group-item">Empresas de consultoria e empreendedorismo</li>
       </ul>
+        </div>
+        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+          <div class="card col-12 col-md-4">
+            <a href="ADMINISTRACAO.pdf" target="_blank">
+              <div class="card-body text-center">
+                <iframe src="ADMINISTRACAO.pdf" class="MostrarPdf" width="100%"></iframe>
+                <button type="button" class="btn btn-success">Abrir
+                  Documento</button>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
     </div>
 
     <div class="text-center mt-5">

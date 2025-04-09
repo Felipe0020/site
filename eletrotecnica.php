@@ -22,10 +22,13 @@
       <div class="col-md-6">
         <h2 class="h4">Sobre o Curso</h2>
         <p>
-          O curso técnico em Eletrotécnica forma profissionais capacitados a atuar na geração, transmissão e distribuição de energia elétrica, além da manutenção de sistemas elétricos industriais, prediais e residenciais.
+          O curso técnico em Eletrotécnica forma profissionais capacitados a atuar na geração, transmissão e
+          distribuição de energia elétrica, além da manutenção de sistemas elétricos industriais, prediais e
+          residenciais.
         </p>
         <p>
-          Os alunos aprendem a interpretar projetos, realizar instalações elétricas, desenvolver automações e seguir normas de segurança e regulamentações técnicas.
+          Os alunos aprendem a interpretar projetos, realizar instalações elétricas, desenvolver automações e seguir
+          normas de segurança e regulamentações técnicas.
         </p>
       </div>
 
@@ -34,15 +37,47 @@
       </div>
     </div>
 
-    <div class="mt-5">
-      <h2 class="h4">Áreas de Atuação</h2>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Empresas de energia elétrica</li>
-        <li class="list-group-item">Indústrias e fábricas</li>
-        <li class="list-group-item">Construção civil</li>
-        <li class="list-group-item">Manutenção e instalação elétrica</li>
-        <li class="list-group-item">Automação industrial</li>
-      </ul>
+    <div>
+      <nav class="tabs-nav">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+              aria-selected="true"><strong>Áreas de Atuação</strong></a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+              aria-selected="false"><strong>Matriz Curricular</strong></a>
+          </li>
+
+        </ul>
+      </nav>
+
+
+      <div class="tab-content mt-3" id="myTabsContent">
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+          <p>O Técnico em Eletrotécnica pode atuar em diversas áreas, como:</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Empresas de energia elétrica</li>
+            <li class="list-group-item">Indústrias e fábricas</li>
+            <li class="list-group-item">Construção civil</li>
+            <li class="list-group-item">Manutenção e instalação elétrica</li>
+            <li class="list-group-item">Automação industrial</li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+          <div class="card col-12 col-md-4">
+            <a href="ELETROTECNICA.pdf" target="_blank">
+              <div class="card-body text-center">
+                <iframe src="ELETROTECNICA.pdf" class="MostrarPdf" width="100%"></iframe>
+                <button type="button" class="btn btn-success">Abrir
+                  Documento</button>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+      </div>
     </div>
 
     <div class="text-center mt-5">

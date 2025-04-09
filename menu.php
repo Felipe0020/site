@@ -33,16 +33,19 @@
 <body>
     <div class="banner" style="background-color:rgb(0, 147, 17); ">
         <div class="row">
-            <div class="ceep col-6 col-md-2 ">
-                <a href="index.php ">
-                    <img src="ceep2.png" alt="Logo CEEP" id="logoCeep">
-                    <img src="parana.jpg" alt="Logo Parana" id="logoparana">
+            <div class="ceep col-3 col-md-2 ">
+                <a href="index.php ">  
+                 <img src="ceep.png" alt="logoceep" id="ceep">
+                
                 </a>
             </div>
-            <div class="col-5   col-md-7 text-center align-items-center d-flex flex-column justify-content-center" id="titulo">
+            <div class="col-12 col-md-6  align-items-center d-flex flex-column justify-content-center" id="titulo">
                 <h1 id="titulo"> Centro Estadual de Educação Profissional</h1>
                 <h1 id="titulosub">Professora Naiana Babaresco de Souza</h1>
+                
             </div>
+
+           
         </div>
     </div>
 
