@@ -19,18 +19,18 @@
 
     <?php include("menu.php"); ?>
 
-    
+
     <div class="container">
         <div class="row">
             <div>
-                <h3 class="text-center" id="FALE">HITÓRICO</h3>
+                <h3 class="text-center" id="FALE">HISTÓRICO</h3>
             </div>
         </div>
     </div>
 
     <div class="container mt-4 ">
-        
-        
+
+
         <div class="bordas p-4">
             <p class="text-justify">
                 No ano de 2008, dez municípios do Paraná foram contemplados para receber uma unidade de Centro
@@ -133,14 +133,14 @@
                 Desenvolvimento de Sistemas e Formação de Docentes.
             </p>
             <br>
-            <div class="col-md-10 mb-3 text-center ">
+            <div class="col-md-12  text-center ">
                 <div style="text-align:center;">
                     <img src="naiana.png">
                     <p><strong>Naiana Babaresco De Souza</strong></p>
                 </div>
             </div>
         </div>
-        
+
     </div>
     </div>
     </div>

@@ -7,7 +7,7 @@
     height: 140px;
     display: flex;
     align-items: center;
-    justify-content: center;
+  
     transition: opacity 0.3s, transform 0.3s;
 }
 
@@ -53,8 +53,10 @@ body {
 
 .ceep img {
     max-width: 53%;
-    display:inline-flex ;
-    text-align: start ;
+    display:inline-flex;
+    text-align: auto ;
+    position: relative;
+    left: 20%;
 }
 
 .parana img {
@@ -64,6 +66,7 @@ body {
 }
 
 #titulo, #titulosub {
+    color: #fff;
     text-align: center !important;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);

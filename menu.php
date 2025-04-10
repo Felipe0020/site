@@ -32,14 +32,14 @@
 
 <body>
     <div class="banner" style="background-color:rgb(0, 147, 17); ">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="ceep col-3 col-md-2 ">
                 <a href="index.php ">  
                  <img src="ceep.png" alt="logoceep" id="ceep">
                 
                 </a>
             </div>
-            <div class="col-12 col-md-6  align-items-center d-flex flex-column justify-content-center" id="titulo">
+            <div class="col-12 col-md-8 text-center d-flex flex-column justify-content-center" id="titulo">
                 <h1 id="titulo"> Centro Estadual de Educação Profissional</h1>
                 <h1 id="titulosub">Professora Naiana Babaresco de Souza</h1>
                 
@@ -50,13 +50,13 @@
     </div>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgb(0, 87, 162);">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgba(0, 0, 0, 0.94);">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav col-md-8">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.php">Início</a>
                     </li>

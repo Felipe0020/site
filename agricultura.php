@@ -35,12 +35,17 @@
       <nav class="tabs-nav">
         <ul class="nav nav-tabs" id="myTabs" role="tablist">
           <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+            <a class="nav-link active text-success" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
               aria-selected="true"><strong>Áreas de Atuação</strong></a>
           </li>
           <li class="nav-item" role="presentation">
-            <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+            <a class="nav-link text-success" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
               aria-selected="false"><strong>Matriz Curricular</strong></a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-success" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3"
+              aria-selected="false"><strong>Plano de Curso</strong></a>
           </li>
 
         </ul>
@@ -61,9 +66,21 @@
         </div>
         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
           <div class="card col-12 col-md-4">
-            <a href="AGRICULTURA.pdf" target="_blank">
+            <a href="documentos/AGRICULTURA.pdf" target="_blank">
               <div class="card-body text-center">
-                <iframe src="AGRICULTURA.pdf" class="MostrarPdf" width="100%"></iframe>
+                <iframe src="documentos/AGRICULTURA.pdf" class="MostrarPdf" width="100%"></iframe>
+                <button type="button" class="btn btn-success">Abrir
+                  Documento</button>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+          <div class="card col-12 col-md-4">
+            <a href="documentos/agricultura1.pdf" target="_blank">
+              <div class="card-body text-center">
+                <iframe src="documentos/agricultura1.pdf" class="MostrarPdf" width="100%"></iframe>
                 <button type="button" class="btn btn-success">Abrir
                   Documento</button>
               </div>

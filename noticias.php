@@ -11,50 +11,58 @@
     include("menu.php");
     ?>
 
-<div class="container">
+    <div class="container">
         <div class="row">
             <div>
                 <h3 class="text-center" id="FALE">NOTÍCIAS</h3>
             </div>
         </div>
     </div>
-    <div class="container mt-4">
+        <!--Notícias -->
+        <div class="container mb-12">
         <div class="row">
-            
-            
 
-            <!-- Notícia 1 -->
-            <div class="col-md-4 mb-4 ">
-                <div class="card text-center">
-                    <img src="voltaaula.jpeg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5 class="card-title">Abertura do Ano Letivo</h5>
-                        <a href="noticias2.php" class="btn btn-success">Leia mais</a>
+            <div class="container mt-4">
+                <div class="row  mt-5">
+                    
+                    <!-- Notícia 1 -->
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card text-center">
+                            <a href="https://escolatecnicalaranjeiras.com.br/2022/02/05/volta-as-aulas/">
+                                <img src="voltaaula.jpeg" class="card-img-top" alt="">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Abertura do Ano Letivo</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Notícia 2 -->
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card text-center">
+                            <a href="https://escolatecnicalaranjeiras.com.br/2021/11/05/inscricoes-para-os-cursos-profissionalizantes/">
+                                <img src="inscricao.png" class="card-img-top" alt="">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Inscrições Abertas</h5>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Notícia 3 -->
+                    <div class="col-md-4 mb-4 ">
+                        <div class="card text-center">
+                            <a href="https://escolatecnicalaranjeiras.com.br/2021/12/17/lista-de-classificacao-para-os-cursos-tecnicos-2022/">
+                                <img src="classificados.jpeg" class="card-img-top" alt="">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Classificação 2025</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Notícia 2 -->
-            <div class="col-md-4 mb-4">
-                <div class="card text-center">
-                    <img src="inscricao.png" class="card-img-top" alt="Imagem notícia 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Inscrições Abertas</h5>
-                        <a href="noticias2.php" class="btn btn-success">Leia mais</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Notícia 3 -->
-            <div class="col-md-4 mb-4">
-                <div class="card text-center">
-                    <img src="classificados.jpeg" class="card-img-top" alt="Imagem notícia 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Jogos Interescolares 2025</h5>
-                        <a href="#" class="btn btn-success">Leia mais</a>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>

@@ -34,12 +34,18 @@
       <nav class="tabs-nav">
         <ul class="nav nav-tabs" id="myTabs" role="tablist">
           <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
+            <a class="nav-link active text-success" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1"
               aria-selected="true"><strong>Áreas de Atuação</strong></a>
           </li>
+
           <li class="nav-item" role="presentation">
-            <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
+            <a class="nav-link text-success" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2"
               aria-selected="false"><strong>Matriz Curricular</strong></a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-success" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3"
+              aria-selected="false"><strong>Plano de Curso</strong></a>
           </li>
 
         </ul>
@@ -58,11 +64,12 @@
         <li class="list-group-item">Instituições públicas ligadas ao setor agrícola</li>
       </ul>
         </div>
+
         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
           <div class="card col-12 col-md-4">
-            <a href="AGRONEGOCIO.pdf" target="_blank">
+            <a href="documentos/AGRONEGOCIO.pdf" target="_blank">
               <div class="card-body text-center">
-                <iframe src="AGRONEGOCIO.pdf" class="MostrarPdf" width="100%"></iframe>
+                <iframe src="documentos/AGRONEGOCIO.pdf" class="MostrarPdf" width="100%"></iframe>
                 <button type="button" class="btn btn-success">Abrir
                   Documento</button>
               </div>
@@ -70,14 +77,21 @@
           </div>
         </div>
 
-
+<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+          <div class="card col-12 col-md-4">
+            <a href="documentos/agronegocio1.pdf" target="_blank">
+              <div class="card-body text-center">
+                <iframe src="documentos/agronegocio1.pdf" class="MostrarPdf" width="100%"></iframe>
+                <button type="button" class="btn btn-success">Abrir
+                  Documento</button>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="text-center mt-5">
-      <a href="inscricoes.php" class="btn btn-success btn-lg">Inscreva-se agora</a>
-    </div>
-  </div>
+    
 
   <?php include("footer.php"); ?>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

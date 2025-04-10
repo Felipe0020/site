@@ -21,37 +21,35 @@
     <?php include("menu.php"); ?>
 
     <div class="container mt-5 col-md-12">
+
         <div class="row">
-            <div class="col-12">
-                <h3 class="text-center">PROJETO POLÍTICO DO CEEP</h3>
-            </div>
-        </div>
-        <div class="row justify-content-center">
             <div class="col-12 offset-md-1 col-md-10">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="text-center">PROJETO POLÍTICO</h3>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="text-center">REGIMENTO ESCOLAR</h3>
+                    </div>
+                </div>
 
                 <div class="row">
-
                     <div class="card col-12 col-md-6">
                         <a href="PROJETOCEEP.pdf" target="_blank">
                             <div class="card-body text-center">
-                                <iframe src="PROJETOCEEP.pdf" class="MostrarPdf" width="100%"></iframe>
-                                <button type="button" style="align-items-center" class="btn btn-success">Abrir
-                                    Documento</button>
-                            </div>
-                        </a>
-                    </div>
-
-
-
-                    <div class="card col-12 col-md-6">
-                        <a href="REGIMENTOCEEP.pdf" target="_blank">
-                            <div class="card-body text-center">
-                                <iframe src="REGIMENTOCEEP.PDF" class="MostrarPdf"></iframe>
+                                <iframe src="documentos/PROJETOCEEP.pdf" class="MostrarPdf" width="100%"></iframe>
                                 <button type="button" class="btn btn-success">Abrir Documento</button>
                             </div>
                         </a>
                     </div>
-
+                    <div class="card col-12 col-md-6">
+                        <a href="REGIMENTOCEEP.pdf" target="_blank">
+                            <div class="card-body text-center">
+                                <iframe src="documentos/REGIMENTOCEEP.PDF" class="MostrarPdf"></iframe>
+                                <button type="button" class="btn btn-success">Abrir Documento</button>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
