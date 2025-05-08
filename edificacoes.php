@@ -71,9 +71,9 @@
         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
         
           <div class="card col-12 col-md-4">
-            <a href="EDIFICACOES.pdf" target="_blank">
+            <a href="documentos/EDIFICACOES.pdf" target="_blank">
               <div class="card-body text-center">
-                <iframe src="EDIFICACOES.pdf" class="MostrarPdf" width="100%"></iframe>
+                <iframe src="documentos/EDIFICACOES.pdf" class="MostrarPdf" width="100%"></iframe>
                 <button type="button" class="btn btn-success">Abrir
                   Documento</button>
               </div>
@@ -86,9 +86,9 @@
         <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
         
           <div class="card col-12 col-md-4">
-            <a href="edificacoes1.pdf" target="_blank">
+            <a href="documentos/edificacoes1.pdf" target="_blank">
               <div class="card-body text-center">
-                <iframe src="edificacoes1.pdf" class="MostrarPdf" width="100%"></iframe>
+                <iframe src="documentos/edificacoes1.pdf" class="MostrarPdf" width="100%"></iframe>
                 <button type="button" class="btn btn-success">Abrir
                   Documento</button>
               </div>

@@ -16,3 +16,18 @@
       gap: 70px;
       justify-content: center;
   }
+
+  @media (max-width: 767px) {
+    .card-body {
+        padding: 15px; 
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px; 
+    }
+
+    iframe.MostrarPdf {
+        height: 300px;
+    }
+}

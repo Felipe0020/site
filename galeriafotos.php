@@ -16,12 +16,7 @@
 <?php
     include("menu.php");
     ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-12" id="topo">
-                <h1 id="topo-titulo">Veja todas as fotos</h1>
-            </div>
-        </div>
+    
     
 
     <div class="row">

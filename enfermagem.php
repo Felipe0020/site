@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Técnico em Enfermagem</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
 </head>
 
@@ -54,6 +55,11 @@
             <a class="nav-link text-success" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab"
               aria-controls="tab3" aria-selected="false"><strong>Plano de Curso</strong></a>
           </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link text-success" id="tab4-tab" data-bs-toggle="tab" href="#tab4" role="tab"
+              aria-controls="tab4" aria-selected="false"><strong>Imagens</strong></a>
+          </li>
         </ul>
       </nav>
 
@@ -73,7 +79,7 @@
         </div>
 
         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-          <div class="card col-12 col-md-4">
+          <div class="card col-12 col-md-3">
             <a href="documentos/ENFERMAGEM.pdf" target="_blank">
               <div class="card-body text-center">
                 <iframe src="documentos/ENFERMAGEM.pdf" class="MostrarPdf" width="100%"></iframe>
@@ -86,24 +92,112 @@
 
         <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
 
-          <div class="card col-12 col-md-4">
-            <a href="enfermagem1.pdf" target="_blank">
+          <div class="card col-12 col-md-3">
+            <a href="documentos/enfermagem1.pdf" target="_blank">
               <div class="card-body text-center">
-                <iframe src="enfermagem1.pdf" class="MostrarPdf" width="100%" ></iframe>
+                <iframe src="documentos/enfermagem1.pdf" class="MostrarPdf" width="100%"></iframe>
                 <button type="button" class="btn btn-success">Abrir Documento</button>
               </div>
             </a>
           </div>
 
         </div>
+
+        <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+          <div class="row">
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/20250317_085434.jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/20250317_085434.jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/20250317_091221.jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/20250317_091221.jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/AGRO.jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/AGRO.jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/AGRO(1).jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/AGRO(1).jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/AGRO(3).jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/AGRO(3).jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/ESTACIONAMENTO.jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/ESTACIONAMENTO.jpg">
+              </a>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/ESTACIONAMENTO(1).jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/ESTACIONAMENTO(1).jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/FACHADA(1).jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/FACHADA(1).jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/HALL.jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/HALL.jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/PATIO.jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/PATIO.jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/PATIO(1).jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/PATIO(1).jpg">
+              </a>
+            </div>
+
+            <div class="col-md-2">
+              <a data-fancybox="imagem" href="imagemExterno/PATIO(2).jpg">
+                <img class="img-fluid definirAltura" src="imagemExterno/PATIO(2).jpg">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
       </div>
+
     </div>
-    </div>
+  </div>
+  </div>
+  </div>
 
 
-    
+
 
   <?php include("footer.php"); ?>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>Fancybox.bind("[data-fancybox='imagem']", {
+
+        });</script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 23%; 
+    }
+
+    .img-fluid {
+        height: auto; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .col-md-3 {
+        width: 45%; 
+    }
+
+    .img-fluid {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-3 {
+        width: 100%;
+    }
+
+    .img-fluid {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .text-center {
+        font-size: 14px; 
+    }
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.text-center {
+    margin-top: 10px;
+}
+
+.definirAltura {
+    max-height: 200px;
+    object-fit: cover; 
+}

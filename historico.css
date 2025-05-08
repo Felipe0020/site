@@ -34,3 +34,10 @@
     margin-top: 0.5rem;
   }
   
+  p{
+    text-align: justify;
+  }
+
+  .teste{
+    text-align: center !important;
+  }

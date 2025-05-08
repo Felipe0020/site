@@ -16,11 +16,11 @@
     <div class="container">
     <div class="row">
             <div>
-                <h3 class="text-center" >REITORIA</h3>
+                <h2 class="text-center" >REITORIA</h2>
             </div>
         </div>
     </div>
-  <div class="container my-5">
+  <div class="container mb-5">
    
     <!-- EQUIPE DIRETIVA E PEDAGÓGICA -->
     <h2 class="mt-2 text-center">Equipe Diretiva e Pedagógica</h2>

@@ -13,14 +13,16 @@
     <?php
     include("menu.php");
     ?>
-    <div class="container">
-        <div class="container">
+
+<div class="container">
             <div class="row">
                 <div>
                     <h3 class="text-center">SUBSEQUENTE</h3>
                 </div>
             </div>
         </div>
+    <div class="container">
+       
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <!-- Card 1 -->
             <div class="col">

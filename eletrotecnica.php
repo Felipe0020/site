@@ -72,9 +72,9 @@
         <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
           
             <div class="card col-12 col-md-4">
-              <a href="ELETROTECNICA.pdf" target="_blank">
+              <a href="documentos/ELETROTECNICA.pdf" target="_blank">
                 <div class="card-body text-center">
-                  <iframe src="ELETROTECNICA.pdf" class="MostrarPdf" width="100%"></iframe>
+                  <iframe src="documentos/ELETROTECNICA.pdf" class="MostrarPdf" width="100%"></iframe>
                   <button type="button" class="btn btn-success">Abrir
                     Documento</button>
                 </div>
@@ -87,9 +87,9 @@
         <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
      
           <div class="card col-12 col-md-4">
-            <a href="eletrotecnica1.pdf" target="_blank">
+            <a href="documentos/eletrotecnica1.pdf" target="_blank">
               <div class="card-body text-center">
-                <iframe src="eletrotecnica1.pdf" class="MostrarPdf" width="100%"></iframe>
+                <iframe src="documentos/eletrotecnica1.pdf" class="MostrarPdf" width="100%"></iframe>
                 <button type="button" class="btn btn-success">Abrir
                   Documento</button>
               </div>

@@ -31,8 +31,7 @@
     <div class="container mt-4 ">
 
 
-        <div class="bordas p-4">
-            <p class="text-justify">
+            <p class="">
                 No ano de 2008, dez municípios do Paraná foram contemplados para receber uma unidade de Centro
                 Estadual de Educação Profissional - CEEP. Já haviam cinco unidades no estado e a partir de 2008
                 a previsão é que mais 10 (dez) seriam construídos. Dentre os municípios selecionados, Laranjeiras
@@ -40,7 +39,7 @@
                 mais centralizado e poderia atender os demais da região. O município de Laranjeiras do Sul é Sede do
                 Conselho de Desenvolvimento do território Cantuquiriguaçu CONDETC.
             </p>
-            <p class="text-justify">
+            <p class="">
                 O Território da Cantuquiriguaçu, reflete com precisão a essência da Associação de Municípios da
                 Região Centro – Oeste do Paraná, que chamamos de Cantu. A entidade é o elo da união de 20
                 municípios, que juntos lutam por mais desenvolvimento para suas cidades.
@@ -74,7 +73,7 @@
                 Agronegócio
                 (subsequente e integrado) e Técnico em Enfermagem (subsequente).
             </p>
-            <p class="text-justify">
+            <p>
                 Enquanto as discussões aconteciam, dava-se início à construção da estrutura física, no ano de
                 2011.
                 Mas no dia 29 de outubro de 2013 houve a suspensão das obras porque segundo o Departamento
@@ -82,7 +81,7 @@
                 de Infraestrutura de Transporte – DNIT a construção estava sobre a faixa de domínio, ocasionando
                 atrasos na construção.
             </p>
-            <p class="text-justify">
+            <p>
                 Em maio de 2016 é nomeada a primeira diretora do Centro Estadual de Educação Profissional
                 Professora
                 Naiana Babaresco de Souza, a Professora Eliane Maria da Silva, formada em Ciências com
@@ -101,7 +100,7 @@
                 agentes.
             </p>
             <p class="text-justify">
-                Em agosto de 2016 início o trabalho com alunos no período noturno com os cursos Técnico em
+                Em agosto de 2016 início o trabalho com alunos no período noturno com os cursos Técnico em 
                 Contabilidade, duas turmas e Técnico em Agronegócio, também com duas turmas na modalidade
                 subsequente. Então assim entra em funcionamento 14º Centro Estadual de Educação Profissional do
                 Estado do Paraná. Somente em setembro de 2016 a direção passou do turno da manhã para noite. Em
@@ -136,7 +135,7 @@
             <div class="col-md-12  text-center ">
                 <div style="text-align:center;">
                     <img src="naiana.png">
-                    <p><strong>Naiana Babaresco De Souza</strong></p>
+                    <p class="teste"><strong>Naiana Babaresco De Souza</strong></p>
                 </div>
             </div>
         </div>

@@ -14,20 +14,7 @@
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
-        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-     
-    <style>
-        @media (max-width: 767px) {
-            #titulo h1 {
-                font-size: 18px;
-            }
-        }
-    </style>
-    </body>
-
 </head>
 
 <body>
@@ -36,19 +23,14 @@
             <div class="ceep col-3 col-md-2 ">
                 <a href="index.php ">  
                  <img src="ceep.png" alt="logoceep" id="ceep">
-                
                 </a>
             </div>
             <div class="col-12 col-md-8 text-center d-flex flex-column justify-content-center" id="titulo">
                 <h1 id="titulo"> Centro Estadual de Educação Profissional</h1>
                 <h1 id="titulosub">Professora Naiana Babaresco de Souza</h1>
-                
             </div>
-
-           
         </div>
     </div>
-
 
     <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:rgba(0, 0, 0, 0.94);">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -58,7 +40,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav col-md-8">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php">Início</a>
+                        <a class="nav-link" href="index.php">Início</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -66,15 +48,16 @@
                             Institucional
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="historico.php">Historico</a></li>
-                            <li><a class="dropdown-item" href="objetivo.php">Objetivo</a></li>
-                            <li><a class="dropdown-item" href="reitoria.php">Reitoria</a></li>
+                            <li><a class="dropdown-item" href="historico.php ">Histórico</a></li>
+                            <li><a class="dropdown-item" href="objetivo.php ">Objetivo</a></li>
+                            <li><a class="dropdown-item" href="reitoria.php ">Reitoria</a></li>
+                            
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Cursos Disponíveis
+                            Cursos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="subsequente.php">Subsequente</a></li>
@@ -90,14 +73,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contato.php">Contato</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">Login</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
-
-
 </body>
 
 </html>

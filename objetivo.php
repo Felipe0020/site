@@ -13,7 +13,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
-
+    
 </head>
 
 <body>
@@ -25,32 +25,31 @@
         <div class="row">
             <div class="col-12 offset-md-1 col-md-10">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h3 class="text-center">PROJETO POLÍTICO</h3>
+                        <div class="card">
+                            <a href="documentos/PROJETOCEEP.pdf" target="_blank">
+                                <div class="card-body text-center">
+                                    <iframe src="documentos/PROJETOCEEP.pdf" class="MostrarPdf" width="100%" height="300"></iframe>
+                                    <button type="button" class="btn btn-success">Abrir Documento</button>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-6">
+
+                    <div class="col-12 col-md-6">
                         <h3 class="text-center">REGIMENTO ESCOLAR</h3>
+                        <div class="card">
+                            <a href="documentos/REGIMENTOCEEP.pdf" target="_blank">
+                                <div class="card-body text-center">
+                                    <iframe src="documentos/REGIMENTOCEEP.PDF" class="MostrarPdf" width="100%" height="300"></iframe>
+                                    <button type="button" class="btn btn-success">Abrir Documento</button>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="card col-12 col-md-6">
-                        <a href="PROJETOCEEP.pdf" target="_blank">
-                            <div class="card-body text-center">
-                                <iframe src="documentos/PROJETOCEEP.pdf" class="MostrarPdf" width="100%"></iframe>
-                                <button type="button" class="btn btn-success">Abrir Documento</button>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card col-12 col-md-6">
-                        <a href="REGIMENTOCEEP.pdf" target="_blank">
-                            <div class="card-body text-center">
-                                <iframe src="documentos/REGIMENTOCEEP.PDF" class="MostrarPdf"></iframe>
-                                <button type="button" class="btn btn-success">Abrir Documento</button>
-                            </div>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
